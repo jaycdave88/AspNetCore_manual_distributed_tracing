@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Synchronus_Server_Socket/1.0.0": {
+        "dependencies": {
+          "Datadog.Trace": "1.19.3"
+        },
+        "runtime": {
+          "Synchronus_Server_Socket.dll": {}
+        }
+      },
+      "Datadog.Trace/1.19.3": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Datadog.Trace.dll": {
+            "assemblyVersion": "1.19.3.0",
+            "fileVersion": "1.19.3.0"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.4.1": {}
+    }
+  },
+  "libraries": {
+    "Synchronus_Server_Socket/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Datadog.Trace/1.19.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NSFYsfvWCdSEoXbqjA4mlg5xcg+mP/INiAIayg/ppH5hcL6QJh/Ymv/9x6zxkWaQeIIlZa72wKWvkBI9qkrf1A==",
+      "path": "datadog.trace/1.19.3",
+      "hashPath": "datadog.trace.1.19.3.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U/KcC19fyLsPN1GLmeU2zQq15MMVcPwMOYPADVo1+WIoJpvMHxrzvl+BLLZwTEZSneGwaPFZ0aWr0nJ7B7LSdA==",
+      "path": "system.diagnostics.diagnosticsource/4.4.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.4.1.nupkg.sha512"
+    }
+  }
+}
